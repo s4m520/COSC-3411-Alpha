@@ -1,4 +1,4 @@
-# COSC-3411-Alpha
+# COSC-3411: Alpha
 
 # Network Reachability and Port Scanner — Alpha Team
 
