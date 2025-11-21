@@ -53,7 +53,7 @@ chmod +x scanner.sh
 ```bash
 sudo ./scanner.sh
 ```
-<br><br>
+<br>
 ## Usage Example (What you will see):
 ```bash
 Scanning Devices Connected to: 192.168.1.0/24
@@ -70,7 +70,7 @@ Exploiting 192.168.1.10 ...
 Launching Metasploit...
 
 ```
-<br><br>
+<br>
 ## Important:
 Make sure:
 - port 445 is open on the victim machine and firewall is turned off
