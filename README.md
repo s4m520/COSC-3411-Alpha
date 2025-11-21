@@ -29,24 +29,28 @@ git clone https://github.com/s4m520/COSC-3411-Alpha.git
 3. Move into the project folder:
 ```bash
 cd COSC-3411-Alpha
-```
-Inside, you should see the doler Scanner:
-```bash
 ls
 ```
-You should see:
+Inside, you should see:
 ```bash
-Scanner  README.md
+README.md  Scanner
 ```
 
-
-
-
-
-
-
+4. Move into the Scanner folder:
 ```bash
-git clone https://github.com/s4m520/COSC-3411-Alpha.git
-cd COSC-3411-Alpha
-pip install -r requirements.txt
+cd Scanner
+```
+Inside, you should see:
+```bash
+scanner.sh
+```
 
+5. Make sure the script is executable:
+```bash
+chmod +x scanner.sh
+```
+
+6. Run the tool:
+```bash
+./scanner.sh
+```
