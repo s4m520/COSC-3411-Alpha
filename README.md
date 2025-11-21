@@ -20,7 +20,11 @@ This project is a Bash script that automatically scans the local network, detect
 sudo apt update
 sudo apt install -y nmap metasploit-framework
 ```
+
 2. Download the project
+```bash
+git clone
+```
 
 
 
