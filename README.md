@@ -3,7 +3,16 @@
 # Network Reachability and Port Scanner — Alpha Team
 
 ## Overview
-A Bash-based tool to discover devices on a local network and scan open ports, then exploit the Eternal Blue vulnerability if found on the TCP port 445.
+This project is a Bash script that automatically scans the local network, detects actice devices, checks which ports are open, and tries identifying the operatings system running on each host. It also performs an automated EternalBlue (MS17-010) exploitation using the Metasploit Framework against a vulnerable Windows target.
+
+## Features
+- Automatically detects the local IP and calculates the /24 subnet
+- Scans all devices on the network using nmap
+- Identifies live hosts
+- Performs OS detection
+- Lists top 100 open TCP ports
+- Detects EternalBlue Vulnerability on port 445
+- Automatically launched Metasploit and exploits EternalBlue
 
 ## Installation
 ```bash
