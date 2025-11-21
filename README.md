@@ -17,16 +17,13 @@ This project is a Bash script that automatically scans the local network, detect
 ## Installation Steps
 1. Install required packages (Kali usually has them):
 ```bash
-sudo apt update
 sudo apt install -y nmap metasploit-framework
 ```
-
 
 2. Download the project:
 ```bash
 git clone https://github.com/s4m520/COSC-3411-Alpha.git
 ```
-
 
 3. Move into the project folder:
 ```bash
@@ -38,7 +35,6 @@ Inside, you should see:
 README.md  Scanner
 ```
 
-
 4. Move into the Scanner folder:
 ```bash
 cd Scanner
@@ -48,14 +44,35 @@ Inside, you should see:
 scanner.sh
 ```
 
-
 5. Make sure the script is executable:
 ```bash
 chmod +x scanner.sh
 ```
 
-
-6. Run the tool:
+6. Run the tool (with root privileges):
 ```bash
-./scanner.sh
+sudo ./scanner.sh
 ```
+
+## Usage Example (What you will see):
+```bash
+Scanning Devices Connected to: 192.168.1.0/24
+
+Device          | Operating System         | Open Ports
+-------------------------------------------------------------
+192.168.1.10    | Windows 7 SP1            | ports: 135 139 445
+192.168.1.15    | unknown                  | ports: none-shown
+192.168.1.21    | Linux Kernel 5.x         | ports: 22 80
+
+[!] 192.168.1.10: MS17-010 / EternalBlue detected
+
+Exploiting 192.168.1.10 ...
+Launching Metasploit...
+
+```
+
+## Important:
+Make sure:
+- port 445 is open on the victim machine and firewall is turned off
+- both machines are on the same LAN
+- You are using Kali as the attacker
