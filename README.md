@@ -19,11 +19,14 @@ This project is a Bash script that automatically scans the local network, detect
 ```bash
 sudo apt install -y nmap metasploit-framework
 ```
+<br>
 
 2. Download the project:
 ```bash
 git clone https://github.com/s4m520/COSC-3411-Alpha.git
 ```
+
+<br>
 
 3. Move into the project folder:
 ```bash
@@ -35,6 +38,8 @@ Inside, you should see:
 README.md  Scanner
 ```
 
+<br>
+
 4. Move into the Scanner folder:
 ```bash
 cd Scanner
@@ -44,15 +49,21 @@ Inside, you should see:
 scanner.sh
 ```
 
+<br>
+
 5. Make sure the script is executable:
 ```bash
 chmod +x scanner.sh
 ```
 
+<br>
+
 6. Run the tool (with root privileges):
 ```bash
 sudo ./scanner.sh
 ```
+
+<br>
 
 7. Start an interactive CMD session on the victim (Only if EternalBlue is found)
 ```bash
