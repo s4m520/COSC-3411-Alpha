@@ -15,20 +15,20 @@ This project is a Bash script that automatically scans the local network, detect
 - Automatically launched Metasploit and exploits EternalBlue
 <br><br>
 ## Installation Steps
-1. Install required packages (Kali usually has them):
+**1. Install required packages (Kali usually has them):**
 ```bash
 sudo apt install -y nmap metasploit-framework
 ```
 <br>
 
-2. Download the project:
+**2. Download the project:**
 ```bash
 git clone https://github.com/s4m520/COSC-3411-Alpha.git
 ```
 
 <br>
 
-3. Move into the project folder:
+**3. Move into the project folder:**
 ```bash
 cd COSC-3411-Alpha
 ls
@@ -40,7 +40,7 @@ README.md  Scanner
 
 <br>
 
-4. Move into the Scanner folder:
+**4. Move into the Scanner folder:**
 ```bash
 cd Scanner
 ```
@@ -51,21 +51,21 @@ scanner.sh
 
 <br>
 
-5. Make sure the script is executable:
+**5. Make sure the script is executable:**
 ```bash
 chmod +x scanner.sh
 ```
 
 <br>
 
-6. Run the tool (with root privileges):
+**6. Run the tool (with root privileges):**
 ```bash
 sudo ./scanner.sh
 ```
 
 <br>
 
-7. Start an interactive CMD session on the victim (Only if EternalBlue is found)
+**7. Start an interactive CMD session on the victim (Only if EternalBlue is found)**
 ```bash
 execute -f cmd.exe -H -c -i
 ```
