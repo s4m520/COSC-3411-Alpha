@@ -20,12 +20,12 @@ This project is a Bash script that automatically scans the local network, detect
 sudo apt update
 sudo apt install -y nmap metasploit-framework
 ```
-
+<br>
 2. Download the project:
 ```bash
 git clone https://github.com/s4m520/COSC-3411-Alpha.git
 ```
-
+<br>
 3. Move into the project folder:
 ```bash
 cd COSC-3411-Alpha
@@ -35,7 +35,7 @@ Inside, you should see:
 ```bash
 README.md  Scanner
 ```
-
+<br>
 4. Move into the Scanner folder:
 ```bash
 cd Scanner
@@ -44,12 +44,12 @@ Inside, you should see:
 ```bash
 scanner.sh
 ```
-
+<br>
 5. Make sure the script is executable:
 ```bash
 chmod +x scanner.sh
 ```
-
+<br>
 6. Run the tool:
 ```bash
 ./scanner.sh
