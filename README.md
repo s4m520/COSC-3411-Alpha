@@ -13,7 +13,7 @@ This project is a Bash script that automatically scans the local network, detect
 - Lists top 100 open TCP ports
 - Detects EternalBlue Vulnerability on port 445
 - Automatically launched Metasploit and exploits EternalBlue
-
+<br><br>
 ## Installation Steps
 1. Install required packages (Kali usually has them):
 ```bash
@@ -53,7 +53,7 @@ chmod +x scanner.sh
 ```bash
 sudo ./scanner.sh
 ```
-
+<br><br>
 ## Usage Example (What you will see):
 ```bash
 Scanning Devices Connected to: 192.168.1.0/24
@@ -70,7 +70,7 @@ Exploiting 192.168.1.10 ...
 Launching Metasploit...
 
 ```
-
+<br><br>
 ## Important:
 Make sure:
 - port 445 is open on the victim machine and firewall is turned off
