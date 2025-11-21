@@ -3,7 +3,7 @@
 # Network Reachability and Port Scanner — Alpha Team
 
 ## Overview
-This project is a Bash script that automatically scans the local network, detects active devices, checks which ports are open, and tries identifying the operatings system running on each host. It also performs an automated EternalBlue (MS17-010) exploitation using the Metasploit Framework against a vulnerable Windows target.
+This project is a Bash script that automatically scans the local network, detects active devices, checks which ports are open, and tries to identify the operating system running on each host. It also performs an automated EternalBlue (MS17-010) exploitation using the Metasploit Framework against a vulnerable Windows target.
 <br><br>
 ## Features
 - Automatically detects the local IP and calculates the /24 subnet
@@ -11,8 +11,8 @@ This project is a Bash script that automatically scans the local network, detect
 - Identifies live hosts
 - Performs OS detection
 - Lists top 100 open TCP ports
-- Detects EternalBlue Vulnerability on port 445
-- Automatically launched Metasploit and exploits EternalBlue
+- Detects EternalBlue vulnerability on port 445
+- Automatically launches Metasploit and exploits EternalBlue
 <br><br>
 ## Installation Steps
 **1. Install required packages (Kali usually has them):**
@@ -65,7 +65,7 @@ sudo ./scanner.sh
 
 <br>
 
-**7. Start an interactive CMD session on the victim (Only if EternalBlue is found)**
+**7. Start an interactive CMD session on the victim (only if EternalBlue is found)**
 ```bash
 execute -f cmd.exe -H -c -i
 ```
@@ -92,9 +92,9 @@ Launching Metasploit...
 ## Requirements for Testing:
 - A vulnerable Windows virtual machine
 - Firewall disabled on the Windows VM
-- A vulnerable EternalBlue Service on port 445
+- A vulnerable EternalBlue service on port 445
 - Attacker machine must be Kali Linux
 - Both machines must be on the same network
 
-**The Windows VM that I used for testing**
+**The Windows VM that I used for testing:**
 https://archive.org/details/Windows_Server_2008_R2_x64.iso_reupload
