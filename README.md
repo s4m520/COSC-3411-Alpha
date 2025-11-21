@@ -14,7 +14,21 @@ This project is a Bash script that automatically scans the local network, detect
 - Detects EternalBlue Vulnerability on port 445
 - Automatically launched Metasploit and exploits EternalBlue
 
-## Installation
+## Installation Steps
+1. Install required packages (Kali usually has them)
+```bash
+sudo apt update
+sudo apt install -y nmap metasploit-framework
+
+2. Download the project
+
+
+
+
+
+
+
+
 ```bash
 git clone https://github.com/s4m520/COSC-3411-Alpha.git
 cd COSC-3411-Alpha
