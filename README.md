@@ -4,8 +4,7 @@
 
 ## Overview
 This project is a Bash script that automatically scans the local network, detects actice devices, checks which ports are open, and tries identifying the operatings system running on each host. It also performs an automated EternalBlue (MS17-010) exploitation using the Metasploit Framework against a vulnerable Windows target.
-
-
+<br><br>
 ## Features
 - Automatically detects the local IP and calculates the /24 subnet
 - Scans all devices on the network using nmap
