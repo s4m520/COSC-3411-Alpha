@@ -95,6 +95,7 @@ Launching Metasploit...
 - A vulnerable EternalBlue service on port 445
 - Attacker machine must be Kali Linux
 - Both machines must be on the same network
+- Turn on the Windows OS BEFORE starting the scan
 
 **The Windows VM that I used for testing:**
 https://archive.org/details/Windows_Server_2008_R2_x64.iso_reupload
