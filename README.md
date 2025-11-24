@@ -6,13 +6,6 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Installation Steps](#installation-steps)
-  - [1. Install required packages (Kali usually has them)](#1-install-required-packages-kali-usually-has-them)
-  - [2. Download the project](#2-download-the-project)
-  - [3. Move into the project folder](#3-move-into-the-project-folder)
-  - [4. Move into the Scanner folder](#4-move-into-the-scanner-folder)
-  - [5. Make sure the script is executable](#5-make-sure-the-script-is-executable)
-  - [6. Run the tool (with root privileges)](#6-run-the-tool-with-root-privileges)
-  - [7. Start an interactive CMD session on the victim (only if EternalBlue is found)](#7-start-an-interactive-cmd-session-on-the-victim-only-if-eternalblue-is-found)
 - [Usage Example (What you will see)](#usage-example-what-you-will-see)
 - [Requirements for Testing](#requirements-for-testing)
 
