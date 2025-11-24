@@ -2,6 +2,26 @@
 
 # Network Reachability and Port Scanner — Alpha Team
 
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Installation Steps](#installation-steps)
+  - [Prerequisites](#prerequisites)
+  - [Download & Setup](#download--setup)
+  - [Make Script Executable](#make-script-executable)
+  - [Run the Script](#run-the-script)
+- [Scanner Folder / Files](#scanner-folder--files)
+- [Usage Example (What you will see)](#usage-example-what-you-will-see)
+- [EternalBlue (MS17-010) Exploitation Flow](#eternalblue-ms17-010-exploitation-flow)
+- [Requirements for Testing](#requirements-for-testing)
+  - [Recommended Vulnerable VM](#recommended-vulnerable-vm)
+- [Safety, Legal & Responsible Use](#safety-legal--responsible-use)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact / Author](#contact--author)
+
+<br>
+
 ## Overview
 This project is a Bash script that automatically scans the local network, detects active devices, checks which ports are open, and tries to identify the operating system running on each host. It also performs an automated EternalBlue (MS17-010) exploitation using the Metasploit Framework against a vulnerable Windows target.
 <br><br>
