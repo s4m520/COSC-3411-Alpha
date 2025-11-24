@@ -6,7 +6,7 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Installation Steps](#installation-steps)
-- [Usage Example (What you will see)](#usage-example-what-you-will-see)
+- [Usage Example](#usage-example)
 - [Requirements for Testing](#requirements-for-testing)
 
 <br>
@@ -80,7 +80,8 @@ execute -f cmd.exe -H -c -i
 ```
 <br>
 
-## Usage Example (What you will see):
+## Usage Example
+What you will see if EternalBlue is detected in a Windows machine:
 ```bash
 Scanning Devices Connected to: 192.168.1.0/24
 
