@@ -23,7 +23,7 @@ This project is a Bash script that automatically scans the local network, detect
 - Detects EternalBlue vulnerability on port 445
 - Automatically launches Metasploit and exploits EternalBlue
 <br><br>
-## Installation Steps
+## Installation Steps (In the Attacker Machine: Kali)
 **1. Install required packages (Kali usually has them):**
 ```bash
 sudo apt install -y nmap metasploit-framework
